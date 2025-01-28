@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables & constantes en Javascript</title>
+</head>
+<body>
+    <h1>Variables & constantes en Javascript</h1>
+
+    <script>
+        /*
+            Para declarar una variable en Javascript 
+            utilizamos la palabra reservada 'let'
+        */
+        let numero = 20
+        let precio = 50
+        /*
+            Para declarar una constante en Java script 
+            utilizamos la palabra reservada 'const'
+        */
+        const PI = 3.141592
+        const nacimiento = '28/01/2001'
+
+        // escribimos el valor almacenado en el documento
+        document.write(numero)
+        document.write('<br>')
+        document.write(nacimiento)
+
+        document.write('<hr>')
+        // Sobre escribimos el valor de la variable número
+        numero = 30
+        document.write(numero)
+        document.write('<br>')
+        // No se puede sobre escribir una constante
+        //nacimiento = '28/01/2007'
+        document.write(nacimiento)
+    </script>
+
+</body>
+</html>
