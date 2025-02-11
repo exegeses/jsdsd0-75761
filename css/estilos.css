@@ -16,6 +16,7 @@ nav a{
     color: hsl(60, 80%, 90%);
     padding: 24px;
     border-radius: 8px;
+    font-size: 24px;
 }
 #caja{
     margin: 40px;
