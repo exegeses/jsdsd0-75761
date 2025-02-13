@@ -1,0 +1,31 @@
+body{
+    font-family: Trebuchet MS;
+    background-color: black;
+    color: aliceblue;
+}
+nav a{
+    background-color: hsl(0, 0%, 99%);
+    padding: 8px 24px;
+    border-radius: 8px;
+    color: hsl(60, 56%, 12%);
+    text-decoration: none;
+}
+#reloj{
+    position: fixed;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 0%);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px;
+    margin-left:  0px; 
+}
+#cronom{
+    position: fixed;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 0%);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px;
+    margin-left: 0px;
+    margin-top: 80px;
+}
