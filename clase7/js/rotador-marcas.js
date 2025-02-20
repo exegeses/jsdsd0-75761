@@ -13,7 +13,7 @@ const marcas = [
     'Hermès', 'Zara','Boss',
     'Aeropostale','Kingpin','Tomy',
     'Gola','Hollister','Abercrombie',
-    'JCrew'
+    'JCrew', 'Nike', 'Adidas'
     ]
 
  /* estado inicial: que se vea una marca en el span */   
@@ -30,3 +30,11 @@ const marcas = [
             span.innerText = marcas[indice]
         }
  )
+ btnAnterior.addEventListener( 'click', ()=>
+    {
+            indice--
+            if(indice < 0 ){
+                indice = marcas.length - 1
+            }
+            span.innerText = marcas[indice]
+    }) 
