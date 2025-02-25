@@ -63,5 +63,5 @@ const objEmpleados = [
     { nombre: 'David Martínez', nivel: 'Senior' }
   ];
   
-  console.log(empleados);
+  console.log(objEmpleados);
   
